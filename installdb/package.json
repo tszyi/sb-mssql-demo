@@ -1,0 +1,13 @@
+{
+  "name": "prevent-sql-server-dead",
+  "version": "0.8.7",
+  "description": "garbage app",
+  "author": "tszyi",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
