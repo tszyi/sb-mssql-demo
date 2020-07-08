@@ -8,7 +8,7 @@ Trash app
 2. docker run -d -p 18787:8080  --name sb-crud-demo sb-crud-demo
 3. cd installdb
 4. docker build -t demo-mssql .
-5. docker run -d -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=c8763" -p 1433:1433  --name demo-mssql demo-mssql
+5. docker run -d -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Password@1234" -p 1433:1433  --name demo-mssql demo-mssql
 
 > 資料庫已建立好隨後API要操作的表
 >

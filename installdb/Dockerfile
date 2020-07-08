@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/mssql/server:2019-CU3-ubuntu-18.04
 ENV ACCEPT_EULA Y
-ENV sa_password c8763
+ENV sa_password Password@1234
 # Switch to root user for access to apt-get install
 USER root
 

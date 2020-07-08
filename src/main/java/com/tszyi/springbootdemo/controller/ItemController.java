@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/mssql-crud-example")
 public class ItemController {
   private static final String USER = "sa";
-  private static final String PW = "c8763";
+  private static final String PW = "Password@1234";
 
   private InventoryHelper helper = new InventoryHelper(USER, PW);
 
