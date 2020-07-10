@@ -30,7 +30,7 @@
 
 ### 建置 docker img
 
-`docker build -t sb-crud-demo .`
+`docker build -t fly-sb -f Dockerfile_wildfly .`
 
 ### 使用服務
 
