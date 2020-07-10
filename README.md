@@ -41,3 +41,15 @@
 - R：`http://localhost:18787/springboot-demo-0.0.1-SNAPSHOT/api/mssql-crud-example/inventories?ip={你的IP}&port=1433`
 - U：`http://localhost:18787/springboot-demo-0.0.1-SNAPSHOT/api/mssql-crud-example/inventories/{id}?ip={你的IP}&port=1433&name={name}&quantity={quantity}`
 - D：`http://localhost:18787/springboot-demo-0.0.1-SNAPSHOT/api/mssql-crud-example/inventories/{id}?ip={你的IP}&port=1433`
+
+## 待改進
+
+- Image size too large
+- All codes needs improved, especially DAO class
+- Configuration needed
+
+## Reference
+
+- [Wildfly 官方docker hub](https://hub.docker.com/r/jboss/wildfly/)
+- [部署sb應用到wildfly法一](https://dzone.com/articles/deploying-spring-boot-app-to-jboss-wildfly)
+- [部署sb應用到wildfly法二](https://medium.com/swlh/how-to-deploy-spring-boot-application-in-wildfly-application-server-b3670c031ad4)
