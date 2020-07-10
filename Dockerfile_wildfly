@@ -1,0 +1,5 @@
+FROM jboss/wildfly:14.0.1.Final
+ADD ./target/springboot-demo-0.0.1-SNAPSHOT.war /opt/jboss/wildfly/standalone/deployments/
+EXPOSE 8080
+EXPOSE 9990
+ENTRYPOINT ["/opt/jboss/wildfly/bin/standalone.sh","-b","0.0.0.0", "-bmanagement", "0.0.0.0"]
